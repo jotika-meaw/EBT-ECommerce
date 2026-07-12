@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawzy</title>
+
+    <!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./style.css">
+
+   <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <!-- My CSS (Always Last) -->
+    <link rel="stylesheet" href="./style.css"> 
+</head>
+<body>
+    <!--==================== TOP BAR ====================-->
+
+<header class="top-header">
+
+    <div class="container">
+
+        <div class="top-left">
+
+            <a href="#">
+                <i class="bi bi-geo-alt-fill"></i>
+                Store Locations
+            </a>
+
+            <a href="#">
+                <i class="bi bi-telephone-fill"></i>
+                +(123)-456-7890
+            </a>
+
+        </div>
+
+        <div class="top-right">
+
+            <select>
+                <option>English</option>
+                <option>Bangla</option>
+            </select>
+
+            <select>
+                <option>USD $</option>
+                <option>BDT ৳</option>
+            </select>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!--==================== NAVBAR ====================-->
+
+<nav class="navbar">
+
+    <div class="container nav-container">
+
+        <!-- Left Menu -->
+
+        <ul class="menu">
+
+            <li><a class="active" href="#">Home</a></li>
+
+            <li>
+                <a href="#">
+                    Collections
+                    <i class="bi bi-chevron-down"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    Products
+                    <i class="bi bi-chevron-down"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    Other Pages
+                    <i class="bi bi-chevron-down"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    Blog
+                    <i class="bi bi-chevron-down"></i>
+                </a>
+            </li>
+
+        </ul>
+
+
+        <!-- Logo -->
+
+        <a href="#" class="logo">
+
+            <img src="./images/logo.png" alt="Logo">
+
+        </a>
+
+
+        <!-- Right Side -->
+
+        <div class="nav-right">
+
+            <!-- Search -->
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    placeholder="Enter Your Keywords">
+
+                <button>
+
+                    <i class="bi bi-search"></i>
+
+                </button>
+
+            </div>
+
+
+            <!-- Icons -->
+
+            <div class="icons">
+
+                <a href="#">
+                    <i class="bi bi-person"></i>
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-star"></i>
+
+                    <span>0</span>
+                </a>
+
+                <a href="#">
+                    <i class="bi bi-bag"></i>
+
+                    <span>0</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- ================= Hero Slider ================= -->
+
+<section class="hero">
+
+    <div class="swiper heroSlider">
+
+        <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide hero-slide hero-blue">
+
+                <img src="./images/hero1.png" alt="Slide 1">
+
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide hero-slide hero-pink">
+
+                <img src="./images/hero2.png" alt="Slide 2">
+
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide hero-slide hero-green">
+
+                <img src="./images/hero3.png" alt="Slide 3">
+
+            </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!--==================== PET CATEGORY ====================-->
+
+<section class="category">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <p>Pet Picks</p>
+
+            <h2>Everything Your Pet Needs</h2>
+
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+
+                <div class="icon-box">
+                    <img src="./images/bird.png" alt="Bird">
+                </div>
+
+                <h4>Birds</h4>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="icon-box">
+                    <img src="./images/cat.png" alt="Cat">
+                </div>
+
+                <h4>Cats</h4>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="icon-box">
+                    <img src="./images/dog.png" alt="Dog">
+                </div>
+
+                <h4>Dogs</h4>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="icon-box">
+                    <img src="./images/rabbit.png" alt="Rabbit">
+                </div>
+
+                <h4>Rabbit</h4>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="icon-box">
+                    <img src="./images/fish.png" alt="Fish">
+                </div>
+
+                <h4>Fish</h4>
+
+            </div>
+
+
+            <div class="category-card">
+
+                <div class="icon-box">
+                    <img src="./images/hamster.png" alt="Hamster">
+                </div>
+
+                <h4>Hamster</h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about">
+
+    <div class="container about-wrapper">
+
+        <!-- LEFT -->
+
+        <div class="about-left">
+
+            <img src="./images/Happy pet.png" alt="">
+
+        </div>
+
+
+        <!-- RIGHT -->
+
+        <div class="about-right">
+
+            <span class="sub-title">
+
+                Gentle Service
+
+            </span>
+
+            <h2>
+
+                Complete Care For
+
+                <span>Happy Pets!</span>
+
+            </h2>
+
+
+            <div class="timeline">
+
+
+                <!-- Item -->
+
+                <div class="timeline-item active">
+
+                    <img src="./images/toy.png">
+
+                    <div>
+
+                        <h4>Fun & Play</h4>
+
+                        <p>
+
+                            Bring joy to your pet's day with toys,
+                            games and accessories designed for endless
+                            fun and happy moments.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="timeline-item">
+
+                    <img src="./images/food.png">
+
+                    <div>
+
+                        <h4>Healthy Nutrition</h4>
+
+                        <p>
+
+                            Natural ingredients for healthier skin,
+                            coat, teeth and tummy.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="timeline-item">
+
+                    <img src="./images/hygiene.png">
+
+                    <div>
+
+                        <h4>Daily Hygiene</h4>
+
+                        <p>
+
+                            Clean paws, shiny fur and happy grooming
+                            every single day.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="timeline-item">
+
+                    <img src="./images/house.png">
+
+                    <div>
+
+                        <h4>Comfortable Living</h4>
+
+                        <p>
+
+                            Comfortable beds, clean homes and
+                            relaxing spaces for every pet.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== FEATURED PRODUCTS ====================-->
+
+<section class="products">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+
+        <div class="section-title">
+
+            <p>Our Product's</p>
+
+            <h2>Favorites This Week</h2>
+
+        </div>
+
+
+        <!-- Product Grid -->
+
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img src="./images/product1.png" alt="Pet Collar">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Rechargeable Pet Collar Set</h4>
+
+                    <div class="stars">
+
+                        ★★★★★
+
+                    </div>
+
+                    <div class="price">
+
+                        $14.00
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- Product 2 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="sale">-5%</span>
+
+                    <img src="./images/product2.png" alt="Dog Food">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Yarrah Organic Dog Meal</h4>
+
+                    <div class="stars">
+
+                        ★★★★★
+
+                    </div>
+
+                    <div class="price">
+
+                        <strong>$33.00</strong>
+
+                        <del>$35.00</del>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- Product 3 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img src="./images/product3.png" alt="Pet Bed">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Heart Pattern Pet Bed</h4>
+
+                    <div class="stars">
+
+                        ★★★★★
+
+                    </div>
+
+                    <div class="price">
+
+                        $14.00
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <!-- Product 4 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <img src="./images/product4.png" alt="Pet Treat">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Herbal Treats For Dogs</h4>
+
+                    <div class="stars">
+
+                        ★★★★★
+
+                    </div>
+
+                    <div class="price">
+
+                        $22.00
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!--==================== BEST SELLING ====================-->
+
+<section class="products best-selling">
+
+    <div class="container">
+
+        <!-- Heading -->
+
+        <div class="best-header">
+
+            <div>
+
+                <p class="small-title">Flash Deals</p>
+
+                <h2>Best Selling Product's</h2>
+
+            </div>
+
+            <a href="#" class="view-all">
+
+                View All <i class="bi bi-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+
+        <!-- Product Grid -->
+
+        <div class="best-grid">
+
+            <!-- Product 5 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="sale">-20%</span>
+
+                    <img src="./images/product5.png" alt="">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Yellow Hoodie Pet Coat</h4>
+
+                    <div class="stars">★★★★★</div>
+
+                    <div class="price">
+
+                        <strong>$12.00</strong>
+
+                        <del>$15.00</del>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 6 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="sale">-5%</span>
+
+                    <img src="./images/product6.png" alt="">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Yarrah Organic Dog Meal</h4>
+
+                    <div class="stars">★★★★★</div>
+
+                    <div class="price">
+
+                        <strong>$33.00</strong>
+
+                        <del>$35.00</del>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 7 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="sale">-12%</span>
+
+                    <img src="./images/product7.png" alt="">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Wooden Pet Rest Sofa</h4>
+
+                    <div class="stars">★★★★★</div>
+
+                    <div class="price">
+
+                        <strong>$22.00</strong>
+
+                        <del>$25.00</del>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 8 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="sale">-9%</span>
+
+                    <img src="./images/product8.png" alt="">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Wooden Dog Kennel Hut</h4>
+
+                    <div class="stars">★★★★★</div>
+
+                    <div class="price">
+
+                        <strong>$20.00</strong>
+
+                        <del>$22.00</del>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product 9 -->
+
+            <div class="product-card">
+
+                <div class="product-image">
+
+                    <span class="sale">-10%</span>
+
+                    <img src="./images/product9.png" alt="">
+
+                    <div class="product-icons">
+
+                        <button class="quick-btn">
+                            <span>Quick View</span>
+                            <i class="bi bi-eye"></i>
+                        </button>
+
+                        <button class="wish-btn">
+                            <span>Add To Wishlist</span>
+                            <i class="bi bi-star"></i>
+                        </button>
+
+                    </div>
+
+                    <button class="cart-btn">
+
+                        Add To Cart
+
+                    </button>
+
+                </div>
+
+                <div class="product-info">
+
+                    <h4>Wooden Cube Pet House</h4>
+
+                    <div class="stars">★★★★★</div>
+
+                    <div class="price">
+
+                        <strong>$36.00</strong>
+
+                        <del>$40.00</del>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== SERVICES ====================-->
+
+<section class="services">
+
+    <div class="container">
+
+        <!-- Section Title -->
+
+        <div class="section-title">
+
+            <p>Our Services</p>
+
+            <h2>Care You Can Trust</h2>
+
+        </div>
+
+
+        <div class="service-wrapper">
+
+            <!-- LEFT -->
+
+            <div class="service-column">
+
+                <div class="service-box">
+
+                    <img src="./images/bath.png" alt="">
+
+                    <div>
+
+                        <h3>Bathing & Grooming</h3>
+
+                        <p>
+                            Professional bathing and grooming to keep your
+                            furry friend healthy, fresh and comfortable.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="service-box">
+
+                    <img src="./images/haircut.png" alt="">
+
+                    <div>
+
+                        <h3>Haircut & Styling</h3>
+
+                        <p>
+                            Stylish trimming and grooming that matches
+                            your pet's personality and comfort.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="service-box">
+
+                    <img src="./images/walking.png" alt="">
+
+                    <div>
+
+                        <h3>Dog Walking</h3>
+
+                        <p>
+                            Safe daily walks to keep your pet active,
+                            energetic and happy.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CENTER IMAGE -->
+
+            <div class="service-image">
+
+                <div class="circle-bg"></div>
+
+                <img src="./images/service-center.png" alt="">
+
+                <img src="./images/bone.png" class="floating-bone" alt="">
+
+            </div>
+
+
+            <!-- RIGHT -->
+
+            <div class="service-column">
+
+                <div class="service-box right">
+
+                    <div>
+
+                        <h3>Nail & Paw Care</h3>
+
+                        <p>
+                            Healthy paws with careful nail trimming
+                            and complete paw cleaning.
+                        </p>
+
+                    </div>
+
+                    <img src="./images/paw.png" alt="">
+
+                </div>
+
+
+
+                <div class="service-box right">
+
+                    <div>
+
+                        <h3>Pet Hotel Stay</h3>
+
+                        <p>
+                            Comfortable and secure boarding with
+                            professional pet care.
+                        </p>
+
+                    </div>
+
+                    <img src="./images/hotel.png" alt="">
+
+                </div>
+
+
+
+                <div class="service-box right">
+
+                    <div>
+
+                        <h3>Health Checkup</h3>
+
+                        <p>
+                            Regular health monitoring from experienced
+                            veterinary professionals.
+                        </p>
+
+                    </div>
+
+                    <img src="./images/doctor.png" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== APPOINTMENT ====================-->
+
+<section class="appointment">
+
+    <div class="container">
+
+        <!-- Top Image -->
+
+        <div class="appointment-top">
+
+            <img src="./images/appointment-pets.png" alt="Pets">
+
+        </div>
+
+
+        <!-- Form -->
+
+        <div class="appointment-box">
+
+            <h2>
+
+                <img src="./images/yellow-icon.png" alt="">
+
+                Make Your Pet's Appointment
+
+            </h2>
+
+
+            <form>
+
+                <div class="appointment-grid">
+
+                    <div class="form-group">
+
+                        <label>Your Name</label>
+
+                        <input type="text" placeholder="Your Name">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Your Email</label>
+
+                        <input type="email" placeholder="Your Email">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Phone Number</label>
+
+                        <input type="text" placeholder="Phone Number">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>Choose Services</label>
+
+                        <select>
+
+                            <option>Choose Services</option>
+
+                            <option>Bathing</option>
+
+                            <option>Haircut</option>
+
+                            <option>Health Checkup</option>
+
+                            <option>Pet Hotel</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group message">
+
+                    <label>Your Message</label>
+
+                    <textarea placeholder="Your Message"></textarea>
+
+                </div>
+
+
+                <button type="submit" class="appointment-btn">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==================== FOOTER ====================-->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="row gy-5">
+
+                <!-- Logo -->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <img src="./images/logo.png" class="footer-logo" alt="">
+
+                    <p class="footer-text">
+
+                        Thank you for choosing us to be part of your pet's journey.
+                        Your trust means the world a lot to us.
+
+                    </p>
+
+                    <div class="social-links">
+
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+                        <a href="#"><i class="bi bi-tiktok"></i></a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- Contact -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4>Contact Us</h4>
+
+                    <ul class="footer-list">
+
+                        <li>
+
+                            <i class="bi bi-geo-alt-fill"></i>
+
+                            2357 Gordon Street, CA
+
+                        </li>
+
+                        <li>
+
+                            <i class="bi bi-telephone-fill"></i>
+
+                            +(123) - 456 - 7890
+
+                        </li>
+
+                        <li>
+
+                            <i class="bi bi-envelope-fill"></i>
+
+                            Pawzy@example.com
+
+                        </li>
+
+                        <li>
+
+                            <i class="bi bi-calendar-event-fill"></i>
+
+                            All Day : 9:00AM - 22:00PM
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <!-- Information -->
+
+                <div class="col-lg-2 col-md-6">
+
+                    <h4>Information</h4>
+
+                    <ul class="footer-links">
+
+                        <li><a href="#">Privacy Policy</a></li>
+
+                        <li><a href="#">Shipping & Delivery</a></li>
+
+                        <li><a href="#">Refund & Return</a></li>
+
+                        <li><a href="#">FAQ</a></li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <!-- Policy -->
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4>Our Policies</h4>
+
+                    <ul class="footer-links">
+
+                        <li><a href="#">Order & Payment</a></li>
+
+                        <li><a href="#">Service Guidelines</a></li>
+
+                        <li><a href="#">Customer Support</a></li>
+
+                        <li><a href="#">Pet Safety Standards</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Bottom -->
+
+        <div class="footer-bottom">
+
+            <p>
+
+                Copyright © 2025 Nova Creative. All Rights Reserved.
+
+            </p>
+
+            <img src="./images/payment.png" alt="Payment">
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- My JS -->
+<script src="js/main.js"></script>
+</body>
+</html>
