@@ -1,63 +1,65 @@
 # EBT E-Commerce
 
-> A responsive storefront front-end for "Pawzy", an online pet supplies shop.
+> A responsive front-end for "Pawzy", an online pet shop — built with HTML, CSS and JavaScript.
 
 ## 📌 Overview
 
-A static e-commerce website built as a front-end project. It presents pet products through categorized sections — collections, favorites of the week, best sellers, and services — with a layout that adapts from mobile to desktop. The site is purely front-end: there is no backend, account system, cart persistence, or payment processing.
+EBT E-Commerce is a single-page, static storefront for a fictional pet supplies brand called **Pawzy**. It demonstrates a complete e-commerce homepage layout: navigation, an animated hero slider, product showcases, a pet-care services section, an appointment form, and a full footer. The project is purely front-end — there is no backend, database, account system, checkout, or payment processing; forms and cart controls are visual UI only.
 
 ## ✨ Features
 
-- Responsive design with 20 media queries (mobile, tablet, desktop)
-- Navbar with Home, Collections, Products and Other Pages menus
-- Hero slider with autoplay and fade transitions
-- Favorites This Week and Best Selling product sections
-- Services and care highlights section
-- Cart entry point in the header
+- **Responsive layout** — 20 media queries covering desktop, tablet and mobile breakpoints
+- **Top bar** with store contact plus language and currency selectors
+- **Navigation menu** — Home, Collections, Products, Other Pages and Blog, with logo, search box and account, wishlist and cart icons
+- **Hero slider** — 3 slides with autoplay, fade effect, loop and clickable pagination (Swiper)
+- **Pet category grid** — Birds, Cats, Dogs, Rabbit, Fish and Hamster
+- **Interactive care timeline** — click to switch between Fun & Play, Healthy Nutrition, Daily Hygiene and Comfortable Living tips
+- **Product showcases** — "Favorites This Week" (4 items) and "Best Selling" (5 items) with prices, sale badges, star ratings and hover buttons (Quick View, Wishlist, Add to Cart — static UI)
+- **Services section** — six pet care services, from bathing and grooming to health checkups
+- **Appointment form** — name, email, phone, service selection and message fields (front-end only; no data is sent)
+- **Footer** with contact details, policy link columns and social icons
+- **CSS animations** — six keyframe animations for hover and floating effects
 
 ## 🛠️ Technologies
 
 - HTML5
 - CSS3
-- JavaScript
-- Bootstrap 5 (JS bundle via CDN)
-- Swiper 11 (hero slider via CDN)
-- Bootstrap Icons
+- JavaScript (vanilla)
+- Bootstrap 5.3.7 (grid and utilities, via CDN)
+- Bootstrap Icons 1.13.1 (via CDN)
+- Swiper 11 (hero slider, via CDN)
+- Google Fonts — Fredoka, DM Sans
 
 ## 📸 Screenshots
 
-Add screenshots here.
+> Screenshots can be added here to showcase the main pages and responsive layouts.
 
 ## 🌐 Live Demo
 
-[https://jotika-meaw.github.io/EBT-ECommerce/](https://jotika-meaw.github.io/EBT-ECommerce/)
+[Live Demo](https://jotika-meaw.github.io/EBT-ECommerce/)
 
-## 🚀 Installation
+## 🚀 Run Locally
 
-```bash
-git clone https://github.com/jotika-meaw/EBT-ECommerce.git
-cd EBT-ECommerce
-```
+1. Clone the repository:
 
-No build step or package installation is required.
+   ```bash
+   git clone https://github.com/jotika-meaw/EBT-ECommerce.git
+   ```
 
-## 💻 Usage
+2. Open the project folder.
+3. Open `index.html` in your browser.
 
-Open `index.html` directly in a browser, or serve the folder locally:
-
-```bash
-npx serve .
-```
+No build tools or package installation are required.
 
 ## 📂 Project Structure
 
 ```text
 EBT-ECommerce/
-├── index.html      # Main page markup
-├── style.css       # Stylesheet with responsive media queries
+├── index.html    # Single-page markup
+├── style.css     # Stylesheet with 20 media queries
 ├── js/
-│   └── main.js     # Hero slider and timeline interactions
-├── images/         # Product, category and hero images
+│   └── main.js   # Hero slider setup and timeline interactions
+├── images/       # 34 site images (hero, products, categories, services)
 └── README.md
 ```
 
