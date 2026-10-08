@@ -1,41 +1,30 @@
-# Pawzy - E-Commerce Storefront
+# EBT E-Commerce
 
-**Responsive e-commerce storefront front-end built with HTML, CSS and JavaScript.**
+## 📌 Description
+A responsive e-commerce website focused on providing a structured and user-friendly online shopping experience.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-jotika--meaw.github.io-blue)](https://jotika-meaw.github.io/EBT-ECommerce/)
+## ✨ Features
+- Responsive design
+- Product browsing
+- Product sections
+- User-friendly interface
+- Mobile-friendly layout
 
-## About
-
-Pawzy is an online pet shop front-end: browse pet essentials, weekly favorites, best-selling products, and service sections, all wrapped in a responsive, mobile-friendly layout.
-
-## Features
-
-- **Hero section** - "Everything Your Pet Needs"
-- **Complete Care For** - category navigation
-- **Favorites This Week** - curated product row
-- **Best Selling Products** - product grid with prices
-- **Care You Can Trust** - service highlights
-- **Responsive layout** - mobile-first design
-
-## Tech Stack
-
-- HTML5
-- CSS3
+## 🛠️ Technologies
+- HTML
+- CSS
 - JavaScript
 
-## Run Locally
+## 📸 Screenshots
+Add screenshots here.
 
-```bash
-git clone https://github.com/jotika-meaw/EBT-ECommerce.git
-cd EBT-ECommerce
-```
+## 🌐 Live Demo
+https://jotika-meaw.github.io/EBT-ECommerce/
 
-Open `index.html` in your browser, or serve it locally:
+## 🚀 Run Locally
+1. Clone the repository.
+2. Open the project folder.
+3. Open `index.html` in your browser.
 
-```bash
-npx serve .
-```
-
-## Author
-
-**Jotika Das** - [GitHub](https://github.com/jotika-meaw) | [LinkedIn](https://www.linkedin.com/in/jotikadas) | [Email](mailto:jotikadas57@gmail.com)
+## 👩‍💻 Author
+**Jotika Das**
