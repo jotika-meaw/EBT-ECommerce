@@ -7,7 +7,7 @@ A responsive e-commerce website focused on providing a structured and user-frien
 - Responsive design (20 media queries for mobile, tablet and desktop)
 - Product browsing with dedicated product sections
 - Favorites and best-selling product rows
-- Cart and account navigation
+- Navigation menu (Home, Collections, Products) with cart
 - User-friendly interface
 - Mobile-friendly layout
 
